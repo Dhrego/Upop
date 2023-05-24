@@ -1,14 +1,16 @@
 ---
 import RootLayout from "../layouts/RootLayout.astro";
 import Navbar from "../components/Navbar.astro";
+import Footer from "../components/Footer.astro";
 
 import "../styles/global.scss";
 ---
 
 <RootLayout>
-  <div class="container">
+  <div class="container-fluid">
     <Navbar />
     <main></main>
+    <Footer />
   </div>
 </RootLayout>
 <style>

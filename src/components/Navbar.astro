@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md">
-  <div class="container-fluid">
+  <div class="container">
     <a class="navbar-brand pe-none" href="#"
-      ><img class="" src="images/u-pop.svg" /></a
+      ><img class="logo" src="images/u-pop.svg" /></a
     >
     <button
       class="navbar-toggler"
@@ -40,9 +40,6 @@
   </div>
 </nav>
 <style>
-  img {
-    width: 4rem;
-  }
   .navbar-toggler,
   .navbar-toggler:focus,
   .navbar-toggler:active,
@@ -63,9 +60,10 @@
     color: white;
   }
 
-  .code:hover {
-    background-color: transparent;
-    color: #e9be56;
-    border: solid #e9be56;
+  .code:hover,
+  .code:active {
+    background-color: transparent !important;
+    color: #e9be56 !important;
+    border-color: #e9be56 !important;
   }
 </style>
