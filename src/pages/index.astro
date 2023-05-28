@@ -4,6 +4,10 @@ import Navbar from "../components/Navbar.astro";
 import Footer from "../components/Footer.astro";
 import Card from "../components/Card.astro";
 import ServiceCard from "../components/ServiceCard.astro";
+import GalleryCard from "../components/GalleryCard.astro";
+import Collage from "../components/Collage.astro";
+import Reviews from "../components/Reviews.astro";
+import Join from "../components/Join.astro";
 
 import "../styles/global.scss";
 ---
@@ -14,12 +18,16 @@ import "../styles/global.scss";
     <main>
       <Card />
       <ServiceCard />
+      <GalleryCard />
+      <Collage />
+      <Reviews />
+      <Join />
+      <Footer />
     </main>
-    <Footer />
   </div>
+  <style>
+    main {
+      min-height: 80vh;
+    }
+  </style>
 </RootLayout>
-<style>
-  main {
-    min-height: 80vh;
-  }
-</style>
